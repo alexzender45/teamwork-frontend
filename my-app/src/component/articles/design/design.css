@@ -1,0 +1,21 @@
+.main{
+    margin-top: 7%
+}
+
+#card{
+    font-size: 120%;
+    font-weight: 900
+}
+#maincard{
+    background: #521751;
+    color: white
+}
+#article{
+    font-weight: 200;
+}
+
+@media (max-width: 768px) {
+    .main {
+      font-size: 200%;
+    }
+  }
