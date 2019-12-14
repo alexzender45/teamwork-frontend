@@ -1,0 +1,56 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #521751;
+    height: 56px;
+  }
+  
+  .toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .toolbar__logo {
+    margin-left: 1rem;
+  }
+  
+  .toolbar__logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+.main {
+      margin-top: 110px;
+      font-size: 20px;
+  }
+
+  .icon{
+      margin-left: 35%
+  }
+  #icon{
+    margin-left: 8%;
+    background: #521751;
+    color: white;
+}
+#submit {
+    margin-top: 11%;
+    background: #521751;
+    color: white;
+}
+
+#copyright {
+    margin-top: 28%
+}
+ #account{
+     margin-right: 40%;
+
+ }
+
+
+
