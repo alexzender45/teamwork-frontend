@@ -4,8 +4,12 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
+<<<<<<< HEAD
 
 
+=======
+import Box from '@material-ui/core/Box';
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import classes from './style'
@@ -27,7 +31,11 @@ class Gift extends React.Component {
     }
 
     onChangeFile = (event) => {
+<<<<<<< HEAD
         this.setState({ image: event.target.image[0] })
+=======
+        this.setState({ image: event.target.files[0] })
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
     }
 
     handleChange(event) {
@@ -42,6 +50,7 @@ class Gift extends React.Component {
     handleSubmit = (e, form) => {
         e.preventDefault();
         const headers = new Headers({
+<<<<<<< HEAD
             'Content-Type': 'multipart/form-data',
             token: this.getToken(),
             mode: "no-cors",
@@ -53,6 +62,18 @@ class Gift extends React.Component {
             method: 'POST',
             body:({formData}),
             headers,
+=======
+            'content-type': 'multipart/form-data',
+            token: this.getToken()
+        })
+        const formData = new FormData()
+        formData.append('myfile', form.title);
+        formData.append('image', form.image);
+        fetch('https://teamwork-project.herokuapp.com/api/v1/gifts', {
+            method: 'POST',
+            body: formData,
+            headers
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
         })
             .then(res => res.json())
             .then(json => {

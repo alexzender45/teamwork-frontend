@@ -19,6 +19,10 @@ const useStyles = makeStyles(theme => ({
         backgroundPosition: 'center',
     },
     overlay: {
+<<<<<<< HEAD
+=======
+        position: 'absolute',
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
         top: 0,
         bottom: 0,
         right: 0,
@@ -60,7 +64,11 @@ export default function MainFeaturedPost(props) {
                             className={classes.submit}
                             id='submit'
                         >
+<<<<<<< HEAD
                         <Link to="/post-article" style={head}>{post.linkText}</Link>
+=======
+                        <Link to="/signup" style={head}>{post.linkText}</Link>
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
                         </Button>
                     </div>
                 </Grid>
