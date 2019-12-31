@@ -3,14 +3,6 @@ import { Link } from 'react-router-dom'
 import SimpleMenu from './icon'
 
 import './header.css'
-<<<<<<< HEAD
-
-const logout = () => {
-    // Retrieves the user token from localStorage
-    return localStorage.removeItem('token')
-}
-=======
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
 const Toolbar = props => (
     <header className="toolbar">
         <nav className="toolbar__navigation">
@@ -22,28 +14,11 @@ const Toolbar = props => (
             <div className="toolbar_navigation-items">
                 <ul>
                     <li>
-                        <Link to="/">ARTICLES</Link>
+                        <Link to="/post-gift">POST GIFT</Link>
                     </li>
                     <li>
-<<<<<<< HEAD
                         <Link to="/gifts">GIFTS</Link>
-=======
-                        <Link to="/">GIFTS</Link>
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
                     </li>
-                    <li>
-                        <Link to="/">FEEDS</Link>
-                    </li>
-<<<<<<< HEAD
-                    <li>
-                    <Link to="/"
-                    onClick= {logout}
-                    > 
-                    Logout
-                    </Link> 
-                    </li>
-=======
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
                 </ul>
             </div>
         </nav>

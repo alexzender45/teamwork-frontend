@@ -12,7 +12,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Toolbar from './header'
 import './style.css'
+<<<<<<< HEAD
+=======
 
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center" id="copyright">
@@ -130,7 +133,13 @@ class Login extends React.Component {
             .then(json => {
                 if (json.status === 'success') {
                     localStorage.setItem('token', json.data.token);
+<<<<<<< HEAD
+                    localStorage.setItem('user_id', json.data.user_id);
                     console.log(localStorage.getItem('token'))
+                    console.log(localStorage.getItem('user_id'))
+=======
+                    console.log(localStorage.getItem('token'))
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
                     this.props.history.push('/articles');
                 } else if (json.status === 'error') {
                     this.setState({
@@ -144,7 +153,11 @@ class Login extends React.Component {
     }
     getToken() {
         // Retrieves the user token from localStorage
+<<<<<<< HEAD
+        return localStorage.getItem('token','user_id')
+=======
         return localStorage.getItem('token')
+>>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
     }
 
     loggedIn() {

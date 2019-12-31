@@ -29,11 +29,7 @@ export default function SimpleMenu() {
                 onClose={handleClose}
             >
                 <MenuItem onClick={handleClose}> <Link to="/">ARTICLES</Link></MenuItem>
-<<<<<<< HEAD
                 <MenuItem onClick={handleClose}><Link to="gifts">GIFTS</Link></MenuItem>
-=======
-                <MenuItem onClick={handleClose}><Link to="#">GIFTS</Link></MenuItem>
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
                 <MenuItem onClick={handleClose}><Link to="#">FEEDS</Link></MenuItem>
             </Menu>
         </div>

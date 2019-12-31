@@ -28,13 +28,8 @@ export default function SimpleMenu() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
             >
-                <MenuItem onClick={handleClose}> <Link to="/">ARTICLES</Link></MenuItem>
-<<<<<<< HEAD
-                <MenuItem onClick={handleClose}><Link to="gifts">GIFTS</Link></MenuItem>
-=======
-                <MenuItem onClick={handleClose}><Link to="#">GIFTS</Link></MenuItem>
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
-                <MenuItem onClick={handleClose}><Link to="#">FEEDS</Link></MenuItem>
+                <MenuItem onClick={handleClose}> <Link to="/post-gift">POST GIFTS</Link></MenuItem>
+                <MenuItem onClick={handleClose}><Link to="/gifts">GIFTS</Link></MenuItem>
             </Menu>
         </div>
     );
