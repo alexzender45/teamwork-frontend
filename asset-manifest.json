@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/teamwork-frontend/static/css/main.77a1457e.chunk.css",
-    "main.js": "/teamwork-frontend/static/js/main.901cddb4.chunk.js",
-    "main.js.map": "/teamwork-frontend/static/js/main.901cddb4.chunk.js.map",
+    "main.css": "/teamwork-frontend/static/css/main.7a829439.chunk.css",
+    "main.js": "/teamwork-frontend/static/js/main.4c7e3d7a.chunk.js",
+    "main.js.map": "/teamwork-frontend/static/js/main.4c7e3d7a.chunk.js.map",
     "runtime-main.js": "/teamwork-frontend/static/js/runtime-main.7c4f0c48.js",
     "runtime-main.js.map": "/teamwork-frontend/static/js/runtime-main.7c4f0c48.js.map",
     "static/css/2.8af65b8c.chunk.css": "/teamwork-frontend/static/css/2.8af65b8c.chunk.css",
-    "static/js/2.0403be78.chunk.js": "/teamwork-frontend/static/js/2.0403be78.chunk.js",
-    "static/js/2.0403be78.chunk.js.map": "/teamwork-frontend/static/js/2.0403be78.chunk.js.map",
+    "static/js/2.ecd2e3c9.chunk.js": "/teamwork-frontend/static/js/2.ecd2e3c9.chunk.js",
+    "static/js/2.ecd2e3c9.chunk.js.map": "/teamwork-frontend/static/js/2.ecd2e3c9.chunk.js.map",
     "index.html": "/teamwork-frontend/index.html",
-    "precache-manifest.d410c373d8097e21411ba4445f01d916.js": "/teamwork-frontend/precache-manifest.d410c373d8097e21411ba4445f01d916.js",
+    "precache-manifest.940d57de657f041869bf6682eeae0cd1.js": "/teamwork-frontend/precache-manifest.940d57de657f041869bf6682eeae0cd1.js",
     "service-worker.js": "/teamwork-frontend/service-worker.js",
     "static/css/2.8af65b8c.chunk.css.map": "/teamwork-frontend/static/css/2.8af65b8c.chunk.css.map",
-    "static/css/main.77a1457e.chunk.css.map": "/teamwork-frontend/static/css/main.77a1457e.chunk.css.map",
+    "static/css/main.7a829439.chunk.css.map": "/teamwork-frontend/static/css/main.7a829439.chunk.css.map",
     "static/media/mdb.css": "/teamwork-frontend/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/teamwork-frontend/static/media/fa-solid-900.f6121be5.woff2",
     "static/media/font-awesome.min.css": "/teamwork-frontend/static/media/fontawesome-webfont.fee66e71.woff"
@@ -20,8 +20,8 @@
   "entrypoints": [
     "static/js/runtime-main.7c4f0c48.js",
     "static/css/2.8af65b8c.chunk.css",
-    "static/js/2.0403be78.chunk.js",
-    "static/css/main.77a1457e.chunk.css",
-    "static/js/main.901cddb4.chunk.js"
+    "static/js/2.ecd2e3c9.chunk.js",
+    "static/css/main.7a829439.chunk.css",
+    "static/js/main.4c7e3d7a.chunk.js"
   ]
 }
