@@ -4,7 +4,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Toolbar from '../header';
-<<<<<<< HEAD
 import Typography from '@material-ui/core/Typography';
 import MainFeaturedPost from './main';
 import Box from '@material-ui/core/Box';
@@ -12,6 +11,7 @@ import Link from '@material-ui/core/Link';
 import FeaturedPost from './feature';
 import './design.css';
 import decode from 'jwt-decode';
+import Footer from './footer'
 
 function Copyright() {
     return (
@@ -31,12 +31,6 @@ function Copyright() {
         </Typography>
     );
 }
-=======
-import MainFeaturedPost from './main';
-import FeaturedPost from './feature';
-import './design.css';
-import Footer from './footer'
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
 
 
 const mainFeaturedPost = {
@@ -57,17 +51,14 @@ class ArticleById extends React.Component {
         }
         this.getUser = this.getUser.bind(this);
         this.getToken = this.getToken.bind(this);
-<<<<<<< HEAD
         this.loggedIn = this.loggedIn.bind(this);
         this.isTokenExpired = this.isTokenExpired.bind(this);
-=======
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
     }
     getToken() {
         // Retrieves the user token from localStorage
         return localStorage.getItem('token')
     }
-<<<<<<< HEAD
+
     loggedIn() {
         // Checks if there is a saved token and it's still valid
         const token = this.getToken() // GEtting token from localstorage
@@ -95,14 +86,12 @@ class ArticleById extends React.Component {
         }
         this.getUser();
     }
-=======
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
     getUser() {
         const headers = new Headers({
             'Content-type': 'application/json',
             token: this.getToken()
         })
-        fetch('https://teamwork-project.herokuapp.com/api/v1/articles', {
+        fetch('https://teamwork-platform.herokuapp.com/api/v1/articles', {
             headers,
             method: 'GET',
         })
@@ -114,20 +103,14 @@ class ArticleById extends React.Component {
                     console.log(json.data.rows)
                 } else if (json.status === "error") {
                     console.log(json.error)
-<<<<<<< HEAD
                     this.props.history.push('/');
-=======
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
                 }
             })
 
     }
-<<<<<<< HEAD
-=======
     componentDidMount() {
         this.getUser();
     }
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
     render() {
         return (
             <React.Fragment>
@@ -138,7 +121,6 @@ class ArticleById extends React.Component {
                         <MainFeaturedPost post={mainFeaturedPost} />
                         <Grid container spacing={4}>
                             {this.state.article.map(post => (
-<<<<<<< HEAD
                                 <FeaturedPost key={post.title} post={post} />
                             ))}
                         </Grid>
@@ -147,14 +129,8 @@ class ArticleById extends React.Component {
                     <Copyright />
                 </Box>
                 </Container>
-=======
-                                <FeaturedPost key={post.article_id}  post={post} />
-                            ))}
-                        </Grid>
-                    </main>
-                </Container>
+                
            <Footer />
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
             </React.Fragment >
         );
     }

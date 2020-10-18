@@ -3,17 +3,15 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
-<<<<<<< HEAD
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+import moment from 'moment'
 
 import {  Link } from 'react-router-dom'
 
  const MAX_LENGTH = 250;
-=======
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
 const max = 50;
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
 const useStyles = makeStyles({
     card: {
         display: 'flex',
@@ -32,7 +30,6 @@ export default function FeaturedPost(props) {
 
     return (
         <Grid item xs={12} md={6}>
-<<<<<<< HEAD
                 <main className={classes.card} id = "card">
                     <div className={classes.cardDetails}>
                     <Link to={`/articlesby/${post.article_id}`}>
@@ -41,27 +38,12 @@ export default function FeaturedPost(props) {
                             </Typography>
                             </Link>
                             <Typography variant="subtitle1" color="textSecondary" id = "date">
-                             {post.created_on}
+                            {moment(`${post.created_on}`).format('MMMM Do YYYY')}
                             </Typography>
-                            
-                                <div>
-      {post.article.length > MAX_LENGTH ?
-        (
-            <Typography variant="subtitle1" paragraph id = "article">
-            {`${post.article.substring(0, MAX_LENGTH)}...`}
-            <Link to={`/articlesby/${post.article_id}`}>Read more</Link>
-            </Typography>
-            
-        ) :
-        <p>{post.article}</p>
-      }
-      
-    </div>
  
                            
                     </div>
                 </main>
-=======
             <CardActionArea>
                 <Card className={classes.card} id = "maincard">
                     <div className={classes.cardDetails}>
@@ -70,16 +52,16 @@ export default function FeaturedPost(props) {
                                {post.title}
                             </Typography>
                             <Typography style={topo} variant="subtitle1" color="textSecondary">
-                                {post.created_on}
+                            {moment(`${post.created_on}`).format('MMMM Do YYYY')}
                             </Typography>
                             <div>
                             {post.article.length > max ?
         (
             <Typography variant="subtitle1" paragraph id = "article">
-            {`${post.article.substring(0, max)}...`}<a href="/aticles">
+            {`${post.article.substring(0, max)}...`} <Link to={`/articlesby/${post.article_id}`}>
                          Continue reading...
 
-            </a>
+            </Link>
           </Typography>
         ) :
         <p>{post.article}</p>
@@ -89,19 +71,14 @@ export default function FeaturedPost(props) {
                     </div>
                 </Card>
             </CardActionArea>
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
         </Grid>
     );
 }
 
 FeaturedPost.propTypes = {
     post: PropTypes.object,
-<<<<<<< HEAD
-};
-=======
 };
 
 const topo = {
     color: 'white'
 }
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b

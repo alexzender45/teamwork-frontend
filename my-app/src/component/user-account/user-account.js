@@ -269,7 +269,7 @@ class Signup extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-        fetch('https://teamwork-project.herokuapp.com/api/v1/auth/create_user', {
+        fetch('https://teamwork-platform.herokuapp.com/api/v1/auth/create_user', {
             headers,
             method: "POST",
             body: JSON.stringify({

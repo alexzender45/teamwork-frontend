@@ -35,7 +35,7 @@ export default class Edit extends Component {
              'Content-type': 'application/json',
           token: this.getToken()
                  })
-      fetch('https://teamwork-project.herokuapp.com/api/v1/articles/' + this.props.match.params.article_id,{
+      fetch('https://teamwork-platform.herokuapp.com/api/v1/articles/' + this.props.match.params.article_id,{
           method: 'GET',
           headers
       })
@@ -74,7 +74,7 @@ export default class Edit extends Component {
       title: this.state.title,
       article: this.state.article
     };
-    return fetch('https://teamwork-project.herokuapp.com/api/v1/articles/' + this.props.match.params.article_id,{
+    return fetch('https://teamwork-platform.herokuapp.com/api/v1/articles/' + this.props.match.params.article_id,{
       headers,
      method: 'PATCH',
      body: JSON.stringify(obj)

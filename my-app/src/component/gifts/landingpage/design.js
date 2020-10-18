@@ -89,7 +89,7 @@ class GetAllGifs extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-        fetch('https://teamwork-project.herokuapp.com/api/v1/gifts', {
+        fetch('https://teamwork-platform.herokuapp.com/api/v1/gifts', {
             headers,
             method: 'GET',
         })

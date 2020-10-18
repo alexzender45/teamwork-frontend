@@ -23,7 +23,7 @@ class ArticleById extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-        fetch('https://teamwork-project.herokuapp.com/api/v1/articles', {
+        fetch('https://teamwork-platform.herokuapp.com/api/v1/articles', {
             headers,
             method: 'GET',
         })

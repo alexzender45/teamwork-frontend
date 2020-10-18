@@ -39,7 +39,7 @@ class GetGiftById extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-        return fetch('https://teamwork-project.herokuapp.com/api/v1/gifts/' + this.props.match.params.gift_id, {
+        return fetch('https://teamwork-platform.herokuapp.com/api/v1/gifts/' + this.props.match.params.gift_id, {
             method: 'GET',
             headers
         })
@@ -58,7 +58,7 @@ class GetGiftById extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-     fetch('https://teamwork-project.herokuapp.com/api/v1/gifts/' + this.props.match.params.gift_id, {
+     fetch('https://teamwork-platform.herokuapp.com/api/v1/gifts/' + this.props.match.params.gift_id, {
           method: 'DELETE',
           headers
         })
@@ -92,7 +92,7 @@ class GetGiftById extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-     fetch(`https://teamwork-project.herokuapp.com/api/v1/gifts/${this.props.match.params.gift_id}/comment`, {
+     fetch(`https://teamwork-platform.herokuapp.com/api/v1/gifts/${this.props.match.params.gift_id}/comment`, {
          headers,
           method: 'POST',
           body: JSON.stringify({
@@ -115,7 +115,7 @@ class GetGiftById extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-     fetch(`https://teamwork-project.herokuapp.com/api/v1/gifts/${this.props.match.params.gift_id}/comment`, {
+     fetch(`https://teamwork-platform.herokuapp.com/api/v1/gifts/${this.props.match.params.gift_id}/comment`, {
          headers,
           method: 'GET',
         })

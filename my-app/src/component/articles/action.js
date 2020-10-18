@@ -18,7 +18,7 @@ class GetById extends React.Component {
             'Content-type': 'application/json',
             token: this.getToken()
         })
-        return fetch('https://teamwork-project.herokuapp.com/api/v1/articles/' + this.props.match.params.article_id, {
+        return fetch('https://teamwork-platform.herokuapp.com/api/v1/articles/' + this.props.match.params.article_id, {
             method: 'GET',
             headers
         })

@@ -1,5 +1,4 @@
 .main{
-<<<<<<< HEAD
     margin-top: 3%;
 }
 
@@ -44,8 +43,7 @@
   } */
 
   .container{
-      background-color: white
-=======
+      background-color: white;
     margin-top: 7%
 }
 
@@ -65,5 +63,4 @@
     .main {
       font-size: 200%;
     }
->>>>>>> 933731246f993aa244da79ad50c64a1ab2c3851b
   }
