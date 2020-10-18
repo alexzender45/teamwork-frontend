@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "75cb920cdf2b749d1cbc489d863bdd22",
+    "revision": "d7f2042ae6d47ba41289f28af6d52db1",
     "url": "/teamwork-frontend/index.html"
   },
   {
-    "revision": "82e8738a1e7478b3b784",
-    "url": "/teamwork-frontend/static/css/2.8af65b8c.chunk.css"
+    "revision": "9f8dd13cb16fcb86baed",
+    "url": "/teamwork-frontend/static/css/2.4cae494d.chunk.css"
   },
   {
-    "revision": "1e8845d8769329c33748",
-    "url": "/teamwork-frontend/static/css/main.c75c4e5b.chunk.css"
+    "revision": "ccc43b374cf4e2ac3131",
+    "url": "/teamwork-frontend/static/css/main.780a3eb6.chunk.css"
   },
   {
-    "revision": "82e8738a1e7478b3b784",
-    "url": "/teamwork-frontend/static/js/2.1ad4790b.chunk.js"
+    "revision": "9f8dd13cb16fcb86baed",
+    "url": "/teamwork-frontend/static/js/2.823d7742.chunk.js"
   },
   {
-    "revision": "1e8845d8769329c33748",
-    "url": "/teamwork-frontend/static/js/main.49884be4.chunk.js"
+    "revision": "ccc43b374cf4e2ac3131",
+    "url": "/teamwork-frontend/static/js/main.6365fcca.chunk.js"
   },
   {
     "revision": "0eb113ac5e744d21c99f",
@@ -112,64 +112,64 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teamwork-frontend/static/media/arrow_right.8ef6a08c.svg"
   },
   {
-    "revision": "088a34f78f530102fd9661173b4a4f26",
-    "url": "/teamwork-frontend/static/media/fa-brands-400.088a34f7.eot"
+    "revision": "2f12242375edd68e9013ecfb59c672e9",
+    "url": "/teamwork-frontend/static/media/fa-brands-400.2f122423.svg"
   },
   {
-    "revision": "273dc9bf9778fd37fa61357645d46a28",
-    "url": "/teamwork-frontend/static/media/fa-brands-400.273dc9bf.ttf"
+    "revision": "8300bd7f30e0a313c1d772b49d96cb8e",
+    "url": "/teamwork-frontend/static/media/fa-brands-400.8300bd7f.ttf"
   },
   {
-    "revision": "822d94f19fe57477865209e1242a3c63",
-    "url": "/teamwork-frontend/static/media/fa-brands-400.822d94f1.woff2"
+    "revision": "ad527cc5ec23d6da66e8a1d6772ea6d3",
+    "url": "/teamwork-frontend/static/media/fa-brands-400.ad527cc5.woff"
   },
   {
-    "revision": "d72293118cda50ec50c39957d9d836d0",
-    "url": "/teamwork-frontend/static/media/fa-brands-400.d7229311.svg"
+    "revision": "e2ca6541bff3a3e9f4799ee327b28c58",
+    "url": "/teamwork-frontend/static/media/fa-brands-400.e2ca6541.eot"
   },
   {
-    "revision": "f4920c94c0861c537f72ba36590f6362",
-    "url": "/teamwork-frontend/static/media/fa-brands-400.f4920c94.woff"
+    "revision": "f075c50f89795e4cdb4d45b51f1a6800",
+    "url": "/teamwork-frontend/static/media/fa-brands-400.f075c50f.woff2"
   },
   {
-    "revision": "3ac49cb33f43a6471f21ab3df40d1b1e",
-    "url": "/teamwork-frontend/static/media/fa-regular-400.3ac49cb3.eot"
+    "revision": "3602b7e8b2cb1462b0bef9738757ef8a",
+    "url": "/teamwork-frontend/static/media/fa-regular-400.3602b7e8.svg"
   },
   {
-    "revision": "9efb86976bd53e159166c12365f61e25",
-    "url": "/teamwork-frontend/static/media/fa-regular-400.9efb8697.woff2"
+    "revision": "3c6879c4f342203d099bdd66dce6d396",
+    "url": "/teamwork-frontend/static/media/fa-regular-400.3c6879c4.woff"
   },
   {
-    "revision": "a57bcf76c178aee452db7a57b75509b6",
-    "url": "/teamwork-frontend/static/media/fa-regular-400.a57bcf76.woff"
+    "revision": "49f00693b0e5d45097832ef5ea1bc541",
+    "url": "/teamwork-frontend/static/media/fa-regular-400.49f00693.ttf"
   },
   {
-    "revision": "d2e53334c22a9a4937bc26e84b36e1e0",
-    "url": "/teamwork-frontend/static/media/fa-regular-400.d2e53334.svg"
+    "revision": "4a74738e7728e93c4394b8604081da62",
+    "url": "/teamwork-frontend/static/media/fa-regular-400.4a74738e.woff2"
   },
   {
-    "revision": "ece54318791c51b52dfdc689efdb6271",
-    "url": "/teamwork-frontend/static/media/fa-regular-400.ece54318.ttf"
+    "revision": "b01516c1808be557667befec76cd6318",
+    "url": "/teamwork-frontend/static/media/fa-regular-400.b01516c1.eot"
   },
   {
-    "revision": "2aa6edf8f296a43b32df35f330b7c81c",
-    "url": "/teamwork-frontend/static/media/fa-solid-900.2aa6edf8.ttf"
+    "revision": "205f07b3883c484f27f40d21a92950d4",
+    "url": "/teamwork-frontend/static/media/fa-solid-900.205f07b3.ttf"
   },
   {
-    "revision": "7a5de9b08012e4da40504f2cf126a351",
-    "url": "/teamwork-frontend/static/media/fa-solid-900.7a5de9b0.svg"
+    "revision": "4451e1d86df7491dd874f2c41eee1053",
+    "url": "/teamwork-frontend/static/media/fa-solid-900.4451e1d8.woff"
   },
   {
-    "revision": "7fb1cdd9c3b889161216a13267b55fe2",
-    "url": "/teamwork-frontend/static/media/fa-solid-900.7fb1cdd9.eot"
+    "revision": "664de3932dd6291b4b8a8c0ddbcb4c61",
+    "url": "/teamwork-frontend/static/media/fa-solid-900.664de393.svg"
   },
   {
-    "revision": "93f284548b42ab76fe3fd03a9d3a2180",
-    "url": "/teamwork-frontend/static/media/fa-solid-900.93f28454.woff"
+    "revision": "8ac3167427b1d5d2967646bd8f7a0587",
+    "url": "/teamwork-frontend/static/media/fa-solid-900.8ac31674.eot"
   },
   {
-    "revision": "f6121be597a72928f54e7ab5b95512a1",
-    "url": "/teamwork-frontend/static/media/fa-solid-900.f6121be5.woff2"
+    "revision": "8e1ed89b6ccb8ce41faf5cb672677105",
+    "url": "/teamwork-frontend/static/media/fa-solid-900.8e1ed89b.woff2"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
